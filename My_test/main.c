@@ -6,7 +6,7 @@
 /*   By: vaisha <vaisha@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/16 16:51:04 by vaisha            #+#    #+#             */
-/*   Updated: 2019/12/12 17:55:41 by vaisha           ###   ########.fr       */
+/*   Updated: 2019/12/12 18:12:09 by vaisha           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,8 @@ int		main(void)
 	int i;
 
 	i = 0;
-	printf("lib = %f\n ", 567.7);
-	i = ft_printf("my  = %f\n", 567.7);
-	//printf("%d", i);
+	printf("he = %f\n", 567.7);
+	i = ft_printf("my = %f\n", 567.7);
+	printf("%d\n", i);
 	return (0);
 }

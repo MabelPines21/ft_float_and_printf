@@ -6,7 +6,7 @@
 /*   By: vaisha <vaisha@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/16 16:50:51 by vaisha            #+#    #+#             */
-/*   Updated: 2019/12/12 17:43:33 by vaisha           ###   ########.fr       */
+/*   Updated: 2019/12/12 18:14:35 by vaisha           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include <unistd.h>
 # include <stdarg.h>
-# include <stdio.h>                     //
+# include <stdio.h>
 # include <stdlib.h>
 # include "libft/libft.h"
 
@@ -83,17 +83,7 @@ void						ft_clean_counts(t_data *list);
 void						ft_clean_list(t_data *list);
 void						ft_clean_all(t_data *list);
 void						ft_clean_s(char *s);
-//char						*ft_strdup(const char *str);
-//char						*ft_strjoin(char *s1, char *s2);
-//int						ft_isdigit(int c);
-//int						ft_strlen(const char *str);
-//char						*ft_strnew(size_t size);
-//void						ft_putchar(char c);
-//char						*ft_strcat(char *destination, const char *append);
-//char						*ft_strcpy(char *str1, char *str2);
-//void						*ft_memset(void *destination, int c, size_t n);
 void						ft_null(t_data *list, char *str);
-//int						ft_isalpha(int c);
 char						*ft_accuracy_o(t_data *list, char *tmp, char *ret);
 void						ft_null_s(t_data *list, char *str);
 void						ft_width_null_s(t_data *list, char *str, char *tmp);
@@ -101,7 +91,6 @@ int							ft_help_i(t_data *list, int value);
 void						ft_list_null(t_data *list, char *s, char *str);
 void						ft_list_null2(t_data *list, char *s, char *str);
 void						ft_list_null3(t_data *list, char *s, char *str);
-//char						*ft_strchr(const char *str, int ch);
 int                         *ft_addition_long_arithmetic(int *x, int *y, int accuracy);
 int                         *ft_difference_long_arithmetic(int *x, int *y, int accuracy);
 int                         *ft_exp_long_arithmetic(int power);
@@ -116,8 +105,5 @@ char	                    *ft_make_zero_char(int size);
 void	                    ft_free_array(int *integer_part, int *fractional_part);
 void	                    ft_free_result(char **temp1, char *result);
 void	                    ft_free_new(int **temp1, int *result);
-
-
-
 
 #endif
