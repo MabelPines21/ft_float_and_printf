@@ -6,7 +6,7 @@
 #    By: vaisha <vaisha@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/19 14:21:49 by vaisha            #+#    #+#              #
-#    Updated: 2019/12/06 15:36:59 by vaisha           ###   ########.fr        #
+#    Updated: 2019/12/12 18:17:26 by vaisha           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,6 @@ NAME = libftprintf.a
 FLAGS = -g -Wall -Werror -Wextra
 
 FUNCT = *.c
-
 
 FILE_O = *.o
 

@@ -6,7 +6,7 @@
 /*   By: vaisha <vaisha@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/13 19:17:26 by vaisha            #+#    #+#             */
-/*   Updated: 2019/12/10 16:08:57 by vaisha           ###   ########.fr       */
+/*   Updated: 2019/12/13 17:01:15 by vaisha           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,8 +81,8 @@ int			ft_printf(const char *format, ...)
 	list = (t_data*)malloc(sizeof(t_data));
 	ft_clean_list(list);
 	ft_check(format, ap, list, i);
+	res = list->ret;
 	ft_clean_all(list);
 	va_end(ap);
-	res = list->ret;
 	return (res);
 }

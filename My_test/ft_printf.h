@@ -6,7 +6,7 @@
 /*   By: vaisha <vaisha@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/16 16:50:51 by vaisha            #+#    #+#             */
-/*   Updated: 2019/12/12 18:14:35 by vaisha           ###   ########.fr       */
+/*   Updated: 2019/12/13 16:43:39 by vaisha           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,7 +94,8 @@ void						ft_list_null3(t_data *list, char *s, char *str);
 int                         *ft_addition_long_arithmetic(int *x, int *y, int accuracy);
 int                         *ft_difference_long_arithmetic(int *x, int *y, int accuracy);
 int                         *ft_exp_long_arithmetic(int power);
-int     					*ft_division_long_arithmetic(int *x, int *y, int accuracy, int numb_of_zero);
+int     					*ft_division_long_arithmetic(int *x, int *y, int accuracy,
+							int numb_of_zero);
 int                         comparasion(int *x, int *y, int accuracy);
 int                         numb_of_zeroes(int *divider);
 int                         *ft_make_zero_str(int size);
@@ -105,5 +106,6 @@ char	                    *ft_make_zero_char(int size);
 void	                    ft_free_array(int *integer_part, int *fractional_part);
 void	                    ft_free_result(char **temp1, char *result);
 void	                    ft_free_new(int **temp1, int *result);
+char        				*ft_width_f(t_data *list, char *tmp);
 
 #endif
